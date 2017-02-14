@@ -1,7 +1,7 @@
 # HAPlayerView
 Easy and familiar class to insert videos as wallpaper without a single line of code, all managed by Interface Builder.
 ## Preview
-<img src="https://github.com/litoarias/HAPlayerView/blob/master/out.gif">
+<img src="https://github.com/litoarias/HAPlayerView/blob/master/Images/out.gif">
 
 ## Features
 > - [x] [Cocoapods](https://cocoapods.org/) support
