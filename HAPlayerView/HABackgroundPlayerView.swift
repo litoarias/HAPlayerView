@@ -8,6 +8,7 @@ import AVFoundation
     var avPlayerLayer: AVPlayerLayer!
     var videoURL: NSURL = NSURL()
     var cView: UIView = UIView()
+    let screenSize = UIScreen.main.bounds
     
     @IBInspectable
     public var name: String = "test" {
@@ -60,7 +61,7 @@ import AVFoundation
         
         guard let video = Bundle.main.url(forResource: resource,
                                           withExtension: extensionFormat) else {
-            return
+                                            return
         }
         videoURL = video as NSURL
         
@@ -72,12 +73,12 @@ import AVFoundation
             avPlayerLayer = AVPlayerLayer(player: player)
             avPlayerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
             avPlayerLayer.zPosition = -1
-            avPlayerLayer.frame = self.frame
+            avPlayerLayer.frame = screenSize
             
             player?.play()
             
             layer.addSublayer(avPlayerLayer)
-
+            
         }
         
         if repeats {
@@ -98,7 +99,7 @@ import AVFoundation
         if cView.isDescendant(of: self) {
             cView.removeFromSuperview()
         } else {
-            cView = UIView.init(frame: self.frame)
+            cView = UIView.init(frame: screenSize)
             cView.backgroundColor = UIColor.black
             cView.alpha = layerAlpha;
             cView.layer.zPosition = 0;
