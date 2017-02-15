@@ -2,7 +2,7 @@
 import UIKit
 import AVFoundation
 
-@IBDesignable class HABackgroundPlayerView: UIView {
+@IBDesignable public class HABackgroundPlayerView: UIView {
     
     var player: AVPlayer?
     var avPlayerLayer: AVPlayerLayer!
@@ -45,12 +45,12 @@ import AVFoundation
         }
     }
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         inits(resource: name, extensionFormat: mime, repeats: repeats, muted: muted, alpha: layerAlpha)
     }
     
-    required public init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         inits(resource: name, extensionFormat: mime, repeats: repeats, muted: muted, alpha: layerAlpha)
     }
