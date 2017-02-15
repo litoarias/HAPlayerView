@@ -410,6 +410,7 @@
 				0AC19EA81E53109500B2F4A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AC19EA91E53109500B2F4A1 /* Build configuration list for PBXNativeTarget "HAPlayerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +419,7 @@
 				0AC19EAB1E53109500B2F4A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
