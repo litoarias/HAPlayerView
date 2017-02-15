@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HAPlayerView"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "HAPlayerView manage video background."
 
   # This description is used to generate tags and improve search results.
