@@ -5,7 +5,7 @@ Easy and familiar class to insert videos as wallpaper without a single line of c
 
 ## Features
 > - [x] [Cocoapods](https://cocoapods.org/) support
-> - [ ] [Carthage](https://github.com/Carthage/Carthage) support
+> - [x] [Carthage](https://github.com/Carthage/Carthage) support
 > - [x] Easy implementation
 > - [x] *@IBInspectable*
 > - [x] Without writing code
