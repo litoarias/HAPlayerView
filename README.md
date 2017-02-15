@@ -10,7 +10,18 @@ Easy and familiar class to insert videos as wallpaper without a single line of c
 > - [x] *@IBInspectable*
 > - [x] Without writing code
 
+##Installation
+
+####CocoaPods:
+
+    	pod 'HAPlayerVideo'
+        
+####Carthage:
+        
+    	github "litoarias/HAPlayerView"
+        
 ## Usage
+### Cocoapod
 Set **class** and **Module**
 
 <img src=https://github.com/litoarias/HAPlayerView/blob/master/Images/Captura%20de%20pantalla%202017-02-14%20a%20las%2018.34.58.png>
@@ -19,12 +30,10 @@ Configure your mime type video, layer alpha, auto replay..
 
 <img src="https://github.com/litoarias/HAPlayerView/blob/master/Images/Captura%20de%20pantalla%202017-02-14%20a%20las%2018.35.17.png">
 
-##Installation
+### Carthage
+Set **class** and **Module**, and if not appears options on Interface builder, adding **User Defined Runtime Attributes**
 
-####CocoaPods:
-
-    	pod 'HAPlayerVideo'
-      
+<img src="https://github.com/litoarias/HAPlayerView/blob/master/Images/Captura%20de%20pantalla%202017-02-15%20a%20las%2012.00.53.png">
       
 ## Contributing
 
