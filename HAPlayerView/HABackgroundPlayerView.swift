@@ -71,7 +71,7 @@ import AVFoundation
             player?.isMuted = muted
             
             avPlayerLayer = AVPlayerLayer(player: player)
-            avPlayerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
+            avPlayerLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
             avPlayerLayer.zPosition = -1
             avPlayerLayer.frame = screenSize
             
@@ -90,8 +90,8 @@ import AVFoundation
         
     }
     
-    func loopVideo() {
-        player?.seek(to: kCMTimeZero)
+    @objc func loopVideo() {
+        player?.seek(to: CMTime.zero)
         player?.play()
     }
     
